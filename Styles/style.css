@@ -1,0 +1,16 @@
+body {
+    background-color:black;
+    font-family: 'Goldman', cursive;
+}
+li {
+    border-bottom: 1px solid #fffff;
+}
+p.colorBlue {
+    color: red;
+}
+#flor {
+    font-size: 80px;
+}
+a.colorBlue {
+    color: green;
+}
