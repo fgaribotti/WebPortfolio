@@ -3,34 +3,98 @@
 
 <head>
     <title>Florencia Garibotti</title>
-    <link rel="icon" href="icon10.ico">
+    <link rel="icon" href="../WebPortfolio/images/icon10.ico" />
+    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/gkb6jdq.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><h1>HOME</h1></a>
-        <p>CV/RESUME</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="bio.html">BIO</a>
-                </li>
-                <li>
-                    <a href="projects.html">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACT</a>
-                </li>
-                <li><a href="social.html">SOCIAL</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="sticky">
+        <h1 style="font-size:15pt">FLORENCIA GARIBOTTI</h1>
+        <center>
+            <img id="iconlight" src="../WebPortfolio/images/formas/blackstar11" style="height:25px">
+        </center>
+        <p id="resume">CV/RESUME</p>
+        <p id="desplegable">+</p>
     </header>
-    <img src="BIO.svg" style="height:200px">
-    <p>I’m Flo and I’m a Graphic Designer based in Barcelona.<br>For the last 10 years I’ve been working for different
-        clients across the globe creating POS, digital and print design,<br> 2D animation and photo retouching.<br>Not
-        only Graphic Design is my main passion! I also love working and experimenting with analogue
-        photography,<br>digital illustration and motion graphics.</p>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="../WebPortfolio/html/bio.html">BIO</a>
+            </li>
+            <li>
+                <a href="projects.html">PROJECTS</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+            <li><a href="social.html">SOCIAL</a>
+            </li>
+        </ul>
+    </nav>
+    <center>
+        <img src="../images/titulos/florenciagaribotti.svg" style="height:330px">
+        <div class="rectangulo">
+            <p class="opento">OPEN TO WORK // REMOTE - FULL TIME // OPEN TO WORK // REMOTE - FULL TIME // OPEN TO WORK</p>
+        </div>
+        <div class="textbio">
+            <p id="line1">I’m Flo and I’m a Graphic Designer based in Barcelona.</p>
+            <p id="line2">or the last 10 years I’ve been working for different clients across the globe creating POS,
+            </p>
+            <p id="line3">digital and print design, 2D animation and photo retouching.</p>
+            <p id="line4">Not only Graphic Design is my main passion! I also love working and experimenting with
+                analoguephotography,</p>
+            <p id="line5">digital illustration and motion graphics.</p>
+            <h5 id="hello"> hello! </h5>
+        </div>
+        <img class="wave" src="../WebPortfolio/images/formas/Wave.svg" alt="wave">
+    </center>
+
+    <h2 class="projects">Projects</h2>
+
+    <div class="portadas">
+        <img id="portada1" src="../WebPortfolio/images/squares/portadaillustration.jpg" height="300px" />
+        <img id="portada2" src="../WebPortfolio/images/squares/portadamotiongraphics.jpg" height="300px" />
+        <img id="portada3" src="../WebPortfolio/images/squares/portadagraphicdesign.png"
+            href="../WebPortfolio/html/motiongraphics.html" alt="Motion Graphics" height="300px" />
+    </div>
+
+    <div class="bottom" id="bottombg">
+        <h3> <a style="text-decoration:none;color: inherit;"
+                href="https://www.linkedin.com/in/florencia-garibotti-12a459109/" target="_blank">LINKEDIN</a></h3>
+        <h4>
+            <hr>Professional History
+        </h4>
+        <h3><a style="text-decoration:none;color: inherit;" href=https://www.behance.net/fagaribotti
+                target="blank">BEHANCE</a></h3>
+        <h4>
+            <hr>Design Projects
+        </h4>
+        <h3> <a style="text-decoration:none;color: inherit;" href=https://dribbble.com/coloresgaribotti
+                target="_blank">DRIBBBLE</a></h3>
+        <h4>
+            <hr>Illustration
+        </h4>
+        <h3><a style="text-decoration:none;color: inherit;" href=https://coloresgaribotti.tumblr.com
+                target="_blank">TUMBLR</a></h3>
+        <h4>
+            <hr>Film Photography
+        </h4>
+        <h2 id="contact">Contact</h2>
+        <form action="/action_page.php">
+            <label for="fname">FULL NAME</label><br>
+            <input type="text" id="fname" name="fname" value="FLORENCIA GARIBOTTI"><br>
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="lname" name="lname" value="fagaribotti@gmail.com"><br>
+            <label for="tel">PHONE (OPTIONAL)</label><br>
+            <input type="tel" id="lname" name="lname" value="+34 0 0000 0000"><br><br>
+            <input type="submit" value="Submit">
+            <p>Copyright Florencia Garibotti ©2022</p>
+    </div>
+    </form>
 </body>
 
 </html>
