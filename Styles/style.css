@@ -1,0 +1,261 @@
+#iconlight {
+    position: absolute;
+    top: 20px;
+    }
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: red;
+}
+
+h1 {
+    font-family: akira;
+    font-size: 15pt;
+    font-weight: 900;
+    position: absolute;
+}
+
+#desplegable{
+font-size: 22px;
+margin-top: -15px;
+}
+
+.opento {
+    font-family: akira;
+    color: rgb(242, 236, 226);
+    font-size: 15pt;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    position:center;
+    text-align: center;
+}
+
+.rectangulo {
+    position: center;
+    background-color:rgb(216, 223, 33);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    margin-bottom: 180px;
+    margin-top: 80px;
+}
+
+body {
+    background-color: rgb(242, 236, 226);
+}
+
+@font-face {
+    font-family: akira;
+    src: url(../fonts/akira.otf)
+}
+
+@font-face {
+    font-family: robotor;
+    src: url(../fonts/robotor.ttf);
+}
+
+@font-face {
+    font-family: robotoli;
+    src: url(../fonts/robotoli.ttf);
+}
+
+@font-face {
+    font-family: robotol;
+    src: url(../fonts/robotol.ttf);
+}
+
+#resume {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.textbio {
+    margin-bottom: -90px;
+}
+
+.projects {
+    margin-top:0;
+}
+
+.portadas {
+    position: relative;
+    left: 120px;
+    margin: 50px auto;
+}
+
+#portada1 {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #2F312E;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+#portada2 {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #2F312E;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+#portada3 {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #2F312E;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+    padding-left: 120px;
+}
+
+h3 {
+    font-family: akira;
+    font-weight: 900;
+    font-size: 45pt;
+    font-stretch: wider;
+    color: rgb(242, 236, 226);
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: robotoli;
+    font-weight: 100;
+    font-size: 12pt;
+    color: rgb(242, 236, 226);
+    margin-right: 120px;
+    text-align: right;
+    border-bottom: 2px;
+    margin-left: 120px;
+}
+
+#line1 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+#line2 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 380px;
+    margin-left: 380px;
+    margin-top: -10px;
+}
+
+#line3 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 480px;
+    margin-left: 480px;
+    margin-top: -10px;
+}
+
+#line4 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: -10px;
+}
+
+#line5 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 540px;
+    margin-left: 540px;
+    margin-top: -10px;
+}
+
+#hello {
+    -webkit-text-stroke: 1px rgb(216, 223, 33);
+    -webkit-text-fill-color: transparent;
+    position: center
+}
+
+.opento {
+padding-bottom: 100px;
+}
+
+h5 {
+    font-family: helvetica;
+    font-size: 200pt;
+    color: black;
+    position: center;
+    margin-top: -230px;
+    margin-bottom: -20px;
+}
+
+#contact {
+    -webkit-text-stroke: 0.5px rgb(242, 236, 226);
+    -webkit-text-fill-color: transparent;
+    padding-left: 120px;
+}
+
+h3:hover {
+    color: rgb(216, 223, 33);
+}
+
+.bottom {
+    align-items: center;
+}
+
+#bottombg {
+    background-color: #2F312E;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+padding-top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
