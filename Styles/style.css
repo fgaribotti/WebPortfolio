@@ -1,25 +1,94 @@
-#iconlight {
-    position: absolute;
-    top: 20px;
-    }
+body {
+    margin: 0;
+}
 
-header {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    background-color: red;
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display:flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(242, 236, 226);
+    justify-content: space-between;
 }
 
 h1 {
     font-family: akira;
     font-size: 15pt;
-    font-weight: 900;
+    color:#2F312E;
+    padding-left: 20px;
+}
+
+.florimagen {
+    margin-top:120px;
+}
+
+.plusmenu {
+    display: flex;
+    justify-content: left;
+    font-size: 20pt;
+}
+
+.plus {
+    display: flex;
     position: absolute;
+    z-index: 1000000;
+    justify-self: left;
+    margin-top: 220px;
+    margin-left: 15px;
+}
+
+ul {
+    list-style: none;
+    text-decoration-line: none;
+    font-family: robotol;
+    color: #2F312E;
+    margin-top:-30px;
+    margin-left: -30px;
+}
+
+.nav a {
+    background-color: rgb(242, 236, 226);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-family: robotol;
+    color: #2F312E;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #2F312E;
+    width: 110px;
+}
+
+.nav a:hover {
+    background-color: #2F312E;
+    color: antiquewhite;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav ul li {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul.nav {
+    display: block;
+    left: 100%;
 }
 
 #desplegable{
 font-size: 22px;
-margin-top: -15px;
 }
 
 .opento {
@@ -72,20 +141,159 @@ body {
     font-size: 12pt;
     text-decoration: underline;
     text-align: right;
+    color:#2F312E;
+    padding-right: 20px;
+    padding-left: 200px;
 }
 
-.textbio {
+h2 {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+}
+
+h3 {
+    font-family: akira;
+    font-weight: 900;
+    font-size: 45pt;
+    font-stretch: wider;
+    color: rgb(242, 236, 226);
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: robotoli;
+    font-weight: 100;
+    font-size: 12pt;
+    color: rgb(242, 236, 226);
+    margin-right: 120px;
+    text-align: right;
+    border-bottom: 2px;
+    margin-left: 120px;
+}
+
+.flex-textbio {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: -90px;
+    min-width: 1300px;
+    max-width: 1400px;
+}
+
+.line1 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 490px;
+    margin-left: 490px;
+    margin-top: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line2 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 380px;
+    margin-left: 390px;
+    margin-top: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line3 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 480px;
+    margin-left: 480px;
+    margin-top: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line4 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line5 {
+    font-family: robotol;
+    font-size: 14;
+    text-align: center;
+    background-color: #2F312E;
+    color: white;
+    position: relative;
+    margin-right: 540px;
+    margin-left: 540px;
+    margin-top: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hello {
+    -webkit-text-stroke: 1px rgb(216, 223, 33);
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+}
+
+.opento {
+padding-bottom: 100px;
+}
+
+h5 {
+    font-family: helvetica;
+    font-size: 200pt;
+    color: black;
+    position: center;
+    margin-top: -230px;
+    margin-bottom: -20px;
 }
 
 .projects {
-    margin-top:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 80px;
 }
 
 .portadas {
-    position: relative;
-    left: 120px;
-    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:auto;
 }
 
 #portada1 {
@@ -126,136 +334,139 @@ body {
     margin-bottom: 70px;
 }
 
-h2 {
-    font-family: adobe-garamond-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 70px;
-    padding-left: 120px;
-}
-
-h3 {
-    font-family: akira;
-    font-weight: 900;
-    font-size: 45pt;
-    font-stretch: wider;
-    color: rgb(242, 236, 226);
-    cursor: pointer;
-    margin-left: 120px;
-    margin-top: 10px;
-}
-
-h4 {
-    font-family: robotoli;
-    font-weight: 100;
-    font-size: 12pt;
-    color: rgb(242, 236, 226);
-    margin-right: 120px;
-    text-align: right;
-    border-bottom: 2px;
-    margin-left: 120px;
-}
-
-#line1 {
-    font-family: robotol;
-    font-size: 14;
-    text-align: center;
-    background-color: #2F312E;
-    color: white;
-    position: relative;
-    margin-right: 500px;
-    margin-left: 500px;
-}
-
-#line2 {
-    font-family: robotol;
-    font-size: 14;
-    text-align: center;
-    background-color: #2F312E;
-    color: white;
-    position: relative;
-    margin-right: 380px;
-    margin-left: 380px;
-    margin-top: -10px;
-}
-
-#line3 {
-    font-family: robotol;
-    font-size: 14;
-    text-align: center;
-    background-color: #2F312E;
-    color: white;
-    position: relative;
-    margin-right: 480px;
-    margin-left: 480px;
-    margin-top: -10px;
-}
-
-#line4 {
-    font-family: robotol;
-    font-size: 14;
-    text-align: center;
-    background-color: #2F312E;
-    color: white;
-    position: relative;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-top: -10px;
-}
-
-#line5 {
-    font-family: robotol;
-    font-size: 14;
-    text-align: center;
-    background-color: #2F312E;
-    color: white;
-    position: relative;
-    margin-right: 540px;
-    margin-left: 540px;
-    margin-top: -10px;
-}
-
-#hello {
-    -webkit-text-stroke: 1px rgb(216, 223, 33);
-    -webkit-text-fill-color: transparent;
-    position: center
-}
-
-.opento {
-padding-bottom: 100px;
-}
-
-h5 {
-    font-family: helvetica;
-    font-size: 200pt;
-    color: black;
-    position: center;
-    margin-top: -230px;
-    margin-bottom: -20px;
-}
-
-#contact {
-    -webkit-text-stroke: 0.5px rgb(242, 236, 226);
-    -webkit-text-fill-color: transparent;
-    padding-left: 120px;
-}
-
 h3:hover {
     color: rgb(216, 223, 33);
 }
 
 .bottom {
     align-items: center;
+    margin: 0;
+    flex-basis: 100%;
 }
 
+.en {
+    display: flex;
+    justify-self: unset;
+} 
+
 #bottombg {
+    justify-content: center;
     background-color: #2F312E;
     width: 100%;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
-padding-top: 50px;
+    padding-top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
+    flex-basis: 100%;
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+#contact {
+    -webkit-text-stroke: 0.5px rgb(242, 236, 226);
+    -webkit-text-fill-color: transparent;
+    justify-content: left;
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    margin-top:-20px;
+    width: 700px;
+}
+
+.form {
+    min-width: 300px;
+    display: flex;
+    flex:2;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.form_input {
+    width: 100%;
+    padding: 4px;
+    margin: 2px;
+    border: none;
+    background: rgb(242, 236, 226);
+    font-family: robotol;
+}
+
+#fname {
+    max-width: 400px;
+    justify-self: left;
+}
+
+.enput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#email {
+    width: 130px;
+}
+
+#number {
+    width: 45%;
+}
+
+.name {
+    font-family: akira;
+    color: rgb(242, 236, 226);
+    font-size: 15px;
+    padding-left: 0;
+    margin: 8px;
+}
+
+#number {
+    display: flex;
+}
+
+#note {
+    padding-top: 100px;
+    max-width: 880px;
+}
+
+.form_section [type="submit"] {
+background-color: rgb(216, 223, 33);
+border:none;
+font-family: akira;
+color:rgb(242, 236, 226);
+margin-top: 10px;
+-webkit-text-stroke: 0.5px #2F312E;
+-webkit-text-fill-color: transparent;
+padding: 10px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 10pt;
+    font-family: robotol;
+    color:  rgb(242, 236, 226);
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 20px;
 }
